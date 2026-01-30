@@ -1,1 +1,1 @@
-
+Essa atividade cria uma estrutura básica de página com cabeçalho, corpo principal e rodapé. Usa tags semânticas como <header>, <main> e <footer> para organizar o conteúdo. Inclui um título no cabeçalho e um texto simples no corpo.
