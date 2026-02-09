@@ -17,16 +17,14 @@ header {
 
 .produtos {
     display: flex;
+    flex-direction: column; 
     gap: 2em;
-    justify-content: center;
-    flex-wrap: wrap;
     padding: 2em;
 }
 
 .card {
     border: 1px solid #ccc;
     padding: 2em;
-    width: 20rem;
     text-align: center;
     border-radius: 0.5em;
 }
@@ -47,6 +45,24 @@ button:hover {
 
 footer {
     text-align: center;
+    padding: 2em;
+    background: #eee;
+}
+
+@media (min-width: 768px) {
+
+    .produtos {
+        flex-direction: row; 
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 20rem;
+    }
+
+}
+
     padding: 2em;
     background: #eee;
 }
