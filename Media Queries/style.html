@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.card {
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Mobile */
+    background: white;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row; /* Desktop */
+    }
+
+    .card img {
+        width: 300px;
+        height: auto;
+    }
+}
