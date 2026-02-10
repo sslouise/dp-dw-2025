@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icone {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.erro {
+    background: #ffdddd;
+    color: #a10000;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid red;
+}
+
+button:focus,
+input:focus {
+    outline: 3px solid #ff6600;
+    outline-offset: 2px;
+}
