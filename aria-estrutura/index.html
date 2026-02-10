@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Acessibilidade ARIA </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1> Acessibilidade ARIA</h1>
+<button aria-label="Fechar janela" class="icone">
+    ✖
+</button>
+<div class="erro" role="alert">
+    Erro: Falha ao enviar o formulário.
+</div>
+<form>
+
+    <label for="nome"> Nome:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+
+    <label for="email"> Email:</label>
+    <input type="email" id="email" placeholder="Digite seu email">
+
+    <button type="submit"> Enviar</button>
+
+</form>
+
+</body>
+</html>
